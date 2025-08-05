@@ -1,7 +1,6 @@
 # BiasBuster_RagProject
 # 🛡️ Bias Buster  
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)  
-![License](https://img.shields.io/badge/License-MIT-green)  
 ![OpenAI](https://img.shields.io/badge/OpenAI-API-orange)  
 ![LangChain](https://img.shields.io/badge/LangChain-Framework-purple)  
 
@@ -25,17 +24,21 @@ It leverages **LangChain**, **ChromeDB**, and **OpenAI** to provide transparent,
 - **[OpenAI API](https://platform.openai.com/)** – Text understanding & analysis
 - **Python 3.10+**
 
-- bias-buster/
-│-- data/ # Sample datasets for testing
-│-- notebooks/ # Jupyter notebooks for experiments
-│-- src/
-│ │-- main.py # Main script to run the tool
-│ │-- analyzer.py # Bias detection logic
-│ │-- storage.py # ChromeDB interaction
-│ │-- prompts.py # Prompt templates for OpenAI
-│-- requirements.txt # Python dependencies
-│-- README.md # Project documentation
-│-- .env.example # Example environment variables
+## 📂 Project Structure
+bias-buster/
+│
+├── data/ # Sample datasets for testing
+├── notebooks/ # Jupyter notebooks for experiments
+│
+├── src/
+│ ├── main.py # Main script to run the tool
+│ ├── analyzer.py # Bias detection logic
+│ ├── storage.py # ChromeDB interaction
+│ └── prompts.py # Prompt templates for OpenAI
+│
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+└── .env.example # Example environment variables
 
 1️⃣ **Clone the repository
 git clone https://github.com/Areeba-Tahir-18/BiasBuster_RagProject.git
@@ -75,4 +78,4 @@ Input Text	Bias Type	Explanation
 
 
 
-## 📂 Project Structure
+
