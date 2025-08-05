@@ -1,5 +1,5 @@
 # BiasBuster_RagProject
-# 🛡️ Bias Buster  
+# 🌟 Bias Buster  
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)  
 ![OpenAI](https://img.shields.io/badge/OpenAI-API-orange)  
 ![LangChain](https://img.shields.io/badge/LangChain-Framework-purple)  
@@ -48,10 +48,10 @@ OPENAI_API_KEY=your_openai_api_key
 CHROMADB_PATH=./chroma_storage
 
 ▶️ Usage
-Run the main script:
+Run the main script:  streamlit run app.py
 
- src/app.py
-Example interaction:
+   
+
 
 
 
