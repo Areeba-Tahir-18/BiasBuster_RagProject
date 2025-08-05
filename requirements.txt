@@ -1,0 +1,34 @@
+# Core LLM & LangChain
+openai==0.28
+langchain
+langchain-community
+
+# Vector DB (Chroma)
+chromadb
+
+# File loaders and document parsing
+pypdf                      # PDF support via PyPDFLoader
+pdfminer.six               # Alternative PDF parser (optional)
+docx2txt                   # .docx file loading
+python-docx                # Alternative DOCX processing
+unstructured               # Optional: if using HTML/doc/email loaders
+
+# Web content loading
+beautifulsoup4
+requests
+
+# Text processing
+tqdm                       # Progress bars
+nltk                       # Optional: for text cleaning/tokenization
+regex                      # Better regex engine (optional)
+
+# Embedding and Scoring
+scikit-learn               # Optional: ML-based scoring
+pandas                     # Data handling (if needed)
+numpy                      # Required by pandas/sklearn
+
+# Environment management
+python-dotenv              # For loading API keys from .env
+
+# Development / Debugging
+rich                       # Optional: for prettier terminal output
