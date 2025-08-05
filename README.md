@@ -22,7 +22,7 @@ It leverages **LangChain**, **ChromeDB**, and **OpenAI** to provide transparent,
 - **[LangChain](https://www.langchain.com/)** – LLM orchestration
 - **[ChromeDB](https://chromadb.com/)** – Vector database for storage & retrieval
 - **[OpenAI API](https://platform.openai.com/)** – Text understanding & analysis
-- - **[Streamlit](https://streamlit.io/)** – Interactive web-based user interface
+- **[Streamlit](https://streamlit.io/)** – Interactive web-based user interface
 - **Python 3.10+**
 
 ## 📂 How to use
